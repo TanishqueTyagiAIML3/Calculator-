@@ -1,0 +1,31 @@
+        body{
+       background-color:black;
+      color:white; 
+        }
+        main{
+            position: absolute;
+            left:40%;
+            top:10%;
+            width:300px;
+         height:250px;
+            display:grid;
+            grid-template-rows: auto auto;
+            padding: 10px 20px;
+            border:10px solid yellow;
+            border-image: url(	https://img.freepik.com/premium-vector/simple-eleg…ive-unique-border_1092018-575.jpg?semt=ais_hybrid) 30 round;
+
+        }
+        .digits{
+            display: grid;
+            grid-template-columns: auto auto auto auto ;
+        }
+        input{
+            height:50%;
+            width:100%;
+            text-align:right;
+            color: black;
+        }
+        h2{
+            font-style: italic;
+            text-align: center;
+        }
